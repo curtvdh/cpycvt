@@ -45,7 +45,7 @@ sample1.cpy
     000007          40 ACTION-DATE-MONTH               PIC 99.
     000008          40 ACTION-DATE-DAY                 PIC 99.
 
-Convert copybook `sample.cpy` to JSON and write to STDOUT:
+Convert copybook `sample1.cpy` to JSON and write to STDOUT:
 
     python copybook.py sample/sample1.cpy
 
@@ -113,7 +113,7 @@ Output:
       "source": "sample/sample1.cpy"
     }
 
-Convert copybook `sample`.cpy` to YAML and write to STDOUT:
+Convert copybook `sample1.cpy` to YAML and write to STDOUT:
 
     python copybook.py sample/sample1.cpy -yaml
 
@@ -156,7 +156,7 @@ nodes:
   source: sample/sample1.cpy
 ```
 
-Convert copybook `sample`.cpy` to nested JSON and write to STDOUT:
+Convert copybook `sample1.cpy` to nested JSON and write to STDOUT:
 
     python copybook.py sample/sample1.cpy -nested
 
@@ -228,7 +228,7 @@ Output:
       "source": "sample/sample1.cpy"
     }
 
-Convert copybook `sample`.cpy` to nested YAML and write to STDOUT:
+Convert copybook `sample1.cpy` to nested YAML and write to STDOUT:
 
     python copybook.py sample/sample1.cpy -yaml -nested
 
