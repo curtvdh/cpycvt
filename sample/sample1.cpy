@@ -1,0 +1,8 @@
+000001 10 RECORD_01.
+000002    20 RECORD_02.
+000003       30 ACTION-DATE.
+000004          40 ACTION-DATE-YEAR-CC.
+000005             60 ACTION-DATE-CENT             PIC 99.
+000006             60 ACTION-DATE-YEAR             PIC 99.
+000007          40 ACTION-DATE-MONTH               PIC 99.
+000008          40 ACTION-DATE-DAY                 PIC 99.
