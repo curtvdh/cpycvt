@@ -31,3 +31,9 @@ STDOUT.
 `-yaml`: writes the output as YAML. Default is JSON.
 
 `-nested`: writes the output in nested format. Default is flat.
+
+## Sample
+
+Convert copybook `sample`.cpy` to JSON and write to STDOUT:
+
+    python copybook.py sample/sample1.cpy
