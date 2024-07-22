@@ -45,7 +45,7 @@ sample1.cpy
     000007          40 ACTION-DATE-MONTH               PIC 99.
     000008          40 ACTION-DATE-DAY                 PIC 99.
 
-Convert copybook `sample`.cpy` to JSON and write to STDOUT:
+Convert copybook `sample.cpy` to JSON and write to STDOUT:
 
     python copybook.py sample/sample1.cpy
 
