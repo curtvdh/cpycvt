@@ -37,3 +37,5 @@ STDOUT.
 Convert copybook `sample`.cpy` to JSON and write to STDOUT:
 
     python copybook.py sample/sample1.cpy
+
+Output:
